@@ -1,0 +1,35 @@
+.heroOverlay {
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+.hero {
+    width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px;
+}
+
+.heroOverlay .siteDescriptionWrapper {
+    position: absolute;
+    width: calc(100vw - 20px);
+    bottom: 10px;
+    left: 10px;
+    padding: 10px;
+    background: #333;
+    transition: background 0.3s ease;
+    box-sizing: border-box;
+}
+
+.heroOverlay:hover .siteDescriptionWrapper {
+    background: black;
+}
+
+.button {
+    font-size: xx-large;
+    color: white;
+    text-decoration: none;
+    display: block;
+}

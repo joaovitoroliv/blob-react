@@ -38,14 +38,3 @@
   .githubLogo{
     color: white;
   }
-
-.hero {
-    background-color: #333;
-    color: #fff;
-    margin: 0;
-    display: flex;
-    color: #fff;
-    padding: 1rem;
-    justify-content: center;
-    align-items: center;
-}
